@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import ProjectCard from "./components/ProjectCard";
+import PROJECTS from "./constants/projects";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="grid grid-cols-1 gap-4 mx-20 p-8 sm:grid-cols-2 lg:grid-cols-3 ">
+      {PROJECTS.map((project, index) => {
+        return <ProjectCard key={index} item={project} />;
+      })}
     </div>
   );
-}
+};
 
 export default App;
