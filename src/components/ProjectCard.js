@@ -7,10 +7,15 @@ const ProjectCard = ({ item = {} }) => {
     <div className="flex flex-col max-w-sm rounded overflow-hidden shadow-lg mb-4">
       <div className="relative bg-blue-100">
         <img
-          className="w-full h-72 min-h-72 max-h-72 object-contain"
+          className="w-full h-72  object-contain"
           src={item.image}
           alt="banner"
         />
+        {!!item.country && (
+          <span class="absolute inline-block bg-black self-start rounded-full px-3 py-1 text-sm font-medium text-white bottom-2 left-2">
+            {item.country}
+          </span>
+        )}
         {!!item.icon && (
           <div className="absolute h-16 w-16 bg-white rounded-md top-3/4 right-2 shadow-2xl rounded border-white">
             <img
@@ -37,7 +42,7 @@ const ProjectCard = ({ item = {} }) => {
         <div className="font-bold text-lg mb-2">{item?.name}</div>
         <p className="text-gray-700 text-sm">{item?.desc}</p>
       </div>
-      <div className="px-6 pb-2 flex justify-center">
+      <div className="px-6 pb-4 flex justify-center">
         {!!item?.playStore && (
           <img
             className="inline-block w-1/2 mr-2 cursor-pointer"
