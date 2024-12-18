@@ -41,9 +41,6 @@ Thumbs.db
 # Yarn lock file (optional, if you're using npm instead)
 yarn.lock
 
-# NPM lock file (optional, but recommended)
-package-lock.json
-
 # Next.js generated .next folder on build
 .next/
 
