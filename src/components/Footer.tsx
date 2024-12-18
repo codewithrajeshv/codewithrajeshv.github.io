@@ -14,7 +14,9 @@ const Footer: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-center md:text-left"
           >
-            <h3 className="text-gray-100 font-semibold mb-2">Let's Connect</h3>
+            <h3 className="text-gray-100 font-semibold mb-2">
+              Let&apos;s Connect
+            </h3>
             <p className="text-gray-400 max-w-md">
               Open for collaborations and interesting projects. Feel free to
               reach out!
