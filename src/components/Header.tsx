@@ -50,7 +50,7 @@ const Header = () => {
           className="relative w-32 h-32 sm:w-40 sm:h-40"
         >
           <Image
-            src="/your-photo.jpg"
+            src="/images/profile.jpg"
             alt="Your Name"
             fill
             className="rounded-full object-cover border-4 border-blue-600"
