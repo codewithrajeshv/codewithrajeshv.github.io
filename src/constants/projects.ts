@@ -1,4 +1,16 @@
-export default [
+export type Project = {
+  name: string;
+  domains: string[];
+  country: string;
+  desc: string;
+  year: number;
+  image: string;
+  playStore?: string;
+  appStore?: string;
+  isPersonalProject?: boolean;
+};
+
+const projects: Project[] = [
   {
     name: "Account & Expense Manager",
     domains: ["Finance"],
@@ -197,3 +209,5 @@ export default [
     appStore: "https://apps.apple.com/in/app/eqwe/id1527450909",
   },
 ];
+
+export default projects;

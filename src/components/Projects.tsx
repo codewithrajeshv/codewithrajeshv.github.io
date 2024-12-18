@@ -1,22 +1,27 @@
 "use client";
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import projects from "../constants/projects";
+import projects, { Project } from "../constants/projects";
 import { motion } from "framer-motion";
 
 const Projects = () => {
   // Group projects by year (assuming you'll add year to your project data)
-  const projectsByYear = projects.reduce((acc, project) => {
-    const year = project.year || 2023; // Default to 2023 if year is not specified
-    if (!acc[year]) {
-      acc[year] = [];
-    }
-    acc[year].push(project);
-    return acc;
-  }, {});
+  const projectsByYear = projects.reduce(
+    (acc: { [key: string]: Project[] }, project) => {
+      const year = project.year || 2023; // Default to 2023 if year is not specified
+      if (!acc[year]) {
+        acc[year] = [];
+      }
+      acc[year].push(project);
+      return acc;
+    },
+    {}
+  );
 
   // Sort years in descending order
-  const sortedYears = Object.keys(projectsByYear).sort((a, b) => b - a);
+  const sortedYears = Object.keys(projectsByYear).sort(
+    (a: string, b: string) => parseInt(b) - parseInt(a)
+  );
 
   return (
     <section className="py-8 sm:py-16 px-3 sm:px-4 bg-gray-900">
