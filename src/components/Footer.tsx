@@ -37,6 +37,13 @@ const Footer: React.FC = () => {
             >
               i.rajeshv11@gmail.com
             </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.05 }}
+              href="tel:+919779735850"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              +91 9779735850
+            </motion.a>
           </motion.div>
         </div>
       </div>

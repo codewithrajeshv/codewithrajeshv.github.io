@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="group bg-gray-800 rounded-lg shadow-lg overflow-hidden border border-gray-700 flex h-28 sm:h-32 hover:shadow-2xl transition-all duration-300 ease-out transform hover:scale-[1.02]"
+      className="group bg-gray-800 rounded-lg shadow-lg overflow-hidden border border-gray-700 flex h-28 sm:h-36 hover:shadow-2xl transition-all duration-300 ease-out transform hover:scale-[1.02]"
     >
       {/* Project Icon */}
       <div className="relative w-28 sm:w-32 flex-shrink-0 overflow-hidden">
@@ -49,7 +49,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
         </div>
 
         {/* Description */}
-        <p className="text-gray-400 text-sm mt-1 sm:mt-2 line-clamp-2 sm:line-clamp-1">
+        <p className="text-gray-400 text-sm mt-1 sm:mt-2 line-clamp-2 ">
           {desc}
         </p>
 
