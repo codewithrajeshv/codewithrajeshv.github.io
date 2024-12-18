@@ -1,0 +1,80 @@
+# Node.js modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript build output
+*.tsbuildinfo
+
+# dotenv environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js static files (if you are deploying to Vercel or similar)
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+
+# Yarn lock file (optional, if you're using npm instead)
+yarn.lock
+
+# NPM lock file (optional, but recommended)
+package-lock.json
+
+# Next.js generated .next folder on build
+.next/
+
+# Static site generation output
+out/
+
+# IDE / Editor specific files
+*.swp
+*.swo
+
+# Tailwind CSS build folder (if you use TailwindCSS with PostCSS)
+.tailwind/
+
+# Docker-related files
+docker-compose.yml
+Dockerfile
+.docker/
+
+# VS Code extensions settings
+.vscode/settings.json
+.vscode/extensions.json
+
+# Jest test coverage output
+coverage/
+
+# SvelteKit (if you use it in combination with Next.js)
+.svelte-kit/
+
+# Mac system files
+.AppleDouble
+
+# Linux system files
+.directory
+
