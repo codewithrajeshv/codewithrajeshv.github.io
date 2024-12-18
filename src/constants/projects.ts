@@ -289,6 +289,18 @@ const projects: Project[] = [
     playStore: "com.shopse.sales",
     type: "mobile",
   },
+  {
+    name: "Match and Learn game for kids",
+    domains: ["Game"],
+    country: "Worldwide",
+    desc: "Fun and exciting matching game that will help exercise your child's study to practice their thinking & memorizing skills",
+    year: 2023,
+    image: "/images/projects/matchnlearn.webp",
+    playStore: "com.itwaves.matchnlearn",
+    appStore:
+      "https://apps.apple.com/us/app/match-and-learn-game-for-kids/id1671811702",
+    type: "mobile",
+  },
 ];
 
 export default projects;
