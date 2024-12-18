@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface Project {
   name: string;
@@ -29,9 +30,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
     >
       {/* Project Icon */}
       <div className="relative w-28 sm:w-32 flex-shrink-0 overflow-hidden">
-        <img
+        <Image
           src={image}
           alt={name}
+          width={100}
+          height={100}
           className="w-full h-full object-cover transition-transform duration-300 ease-out group-hover:scale-110"
         />
       </div>

@@ -5,8 +5,7 @@ export default [
     country: "Worldwide",
     desc: "A smart solution which helps you to easily manage your day-to-day transactions.",
     year: 2022,
-    image:
-      "https://www.it-waves.com/_next/image?url=%2Fimages%2Fwork%2FaccountManager.png&w=828&q=75",
+    image: "/images/projects/account-manager.png",
     playStore:
       "https://play.google.com/store/apps/details?id=com.itwaves.accountmanager",
     appStore:
@@ -14,13 +13,117 @@ export default [
     isPersonalProject: true,
   },
   {
+    name: "Geo Cam",
+    domains: ["Photography"],
+    country: "Worldwide",
+    desc: "A smart solution which helps you to easily manage your day-to-day transactions.",
+    year: 2024,
+    image: "/images/projects/geo-cam.png",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.itwaves.accountmanager",
+    appStore:
+      "https://apps.apple.com/us/app/account-expense-manager/id1596113242",
+    isPersonalProject: true,
+  },
+  {
+    name: "Keep Links",
+    domains: ["Utility"],
+    country: "Worldwide",
+    desc: "A smart solution which helps you to easily manage your day-to-day transactions.",
+    year: 2024,
+    image: "/images/projects/keep-links.png",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.itwaves.accountmanager",
+    appStore:
+      "https://apps.apple.com/us/app/account-expense-manager/id1596113242",
+    isPersonalProject: true,
+  },
+  {
+    name: "Melaleuca Shopping",
+    domains: ["Utility"],
+    country: "Worldwide",
+    desc: "A smart solution which helps you to easily manage your day-to-day transactions.",
+    year: 2023,
+    image: "/images/projects/melaleuca.png",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.melaleuca.shopping",
+    appStore:
+      "https://apps.apple.com/us/app/account-expense-manager/id1596113242",
+  },
+  {
+    name: "Baduli Music",
+    domains: ["Utility"],
+    country: "Worldwide",
+    desc: "A smart solution which helps you to easily manage your day-to-day transactions.",
+    year: 2024,
+    image: "/images/projects/baduli.png",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.melaleuca.shopping",
+    appStore:
+      "https://apps.apple.com/us/app/account-expense-manager/id1596113242",
+  },
+  {
+    name: "OZZI - Global Safety",
+    domains: ["Utility"],
+    country: "Worldwide",
+    desc: "A smart solution which helps you to easily manage your day-to-day transactions.",
+    year: 2024,
+    image: "/images/projects/ozzi.png",
+    playStore: "https://play.google.com/store/apps/details?id=com.ozzi.app",
+    appStore:
+      "https://apps.apple.com/us/app/account-expense-manager/id1596113242",
+  },
+  {
+    name: "Callingly",
+    domains: ["Utility"],
+    country: "Kuwait",
+    desc: "Feel free to explore sports events happening around you. Meet new players who are close to your level. Seek new challenges amongst your friends. Take on the I'M IN experience, Let's go!",
+    year: 2022,
+    image: "/images/projects/callingly.png",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.goinfoo.imin&hl=en_IN&gl=US",
+    appStore: "https://apps.apple.com/in/app/im-in/id1562889443",
+  },
+  {
+    name: "SML Lens",
+    domains: ["Utility"],
+    country: "Kuwait",
+    desc: "Feel free to explore sports events happening around you. Meet new players who are close to your level. Seek new challenges amongst your friends. Take on the I'M IN experience, Let's go!",
+    year: 2022,
+    image: "/images/projects/sml-lens.png",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.goinfoo.imin&hl=en_IN&gl=US",
+    appStore: "https://apps.apple.com/in/app/im-in/id1562889443",
+  },
+  {
+    name: "SML Eboard Pro",
+    domains: ["Utility"],
+    country: "Kuwait",
+    desc: "Feel free to explore sports events happening around you. Meet new players who are close to your level. Seek new challenges amongst your friends. Take on the I'M IN experience, Let's go!",
+    year: 2024,
+    image: "/images/projects/sml-eboard.png",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.goinfoo.imin&hl=en_IN&gl=US",
+    appStore: "https://apps.apple.com/in/app/im-in/id1562889443",
+  },
+  {
+    name: "SML Vahaan Suraksha",
+    domains: ["Utility"],
+    country: "Kuwait",
+    desc: "Feel free to explore sports events happening around you. Meet new players who are close to your level. Seek new challenges amongst your friends. Take on the I'M IN experience, Let's go!",
+    year: 2024,
+    image: "/images/projects/sml-logistics.png",
+    playStore:
+      "https://play.google.com/store/apps/details?id=com.goinfoo.imin&hl=en_IN&gl=US",
+    appStore: "https://apps.apple.com/in/app/im-in/id1562889443",
+  },
+  {
     name: "I'M IN",
     domains: ["Sports"],
     country: "Kuwait",
     desc: "Feel free to explore sports events happening around you. Meet new players who are close to your level. Seek new challenges amongst your friends. Take on the I'M IN experience, Let's go!",
     year: 2023,
-    image:
-      "https://play-lh.googleusercontent.com/DCXgiYgMSZwuKIPDPAH_i1R8-maA5ntHIm5ezUVJbVAcajyaK9vykN6YHMHX4LlqJNY=w5120-h2880-rw",
+    image: "/images/projects/imin.jpg",
     playStore:
       "https://play.google.com/store/apps/details?id=com.goinfoo.imin&hl=en_IN&gl=US",
     appStore: "https://apps.apple.com/in/app/im-in/id1562889443",
@@ -30,7 +133,7 @@ export default [
     domains: ["Communication", "Social", "Networking"],
     country: "USA",
     desc: "Connecting Communities Through Communication!",
-    year: 2023,
+    year: 2022,
     image:
       "https://play-lh.googleusercontent.com/XKywzFiE2mbEe2QmhM_2A1SPRwLvQhzeOjzd6VEcnYRP2xVYc5qseAmo3ctXxG8NBzA=w1052-h592-rw",
     playStore:
@@ -42,9 +145,8 @@ export default [
     desc: "The Cancer App has been designed to help you stay in control of your care, appointments, medications, contacts, and relevant expert information specific to your cancer.",
     country: "Worldwide",
     domains: ["Healthcare"],
-    year: 2023,
-    image:
-      "https://play-lh.googleusercontent.com/sVZjJsEzk-Q69NT1uhyMF0Z6WKbWKcpsG8bX_pUuohHFiUQ3b1Otr-hwMAhutaB5aQ=w1052-h592-rw",
+    year: 2021,
+    image: "/images/projects/screw-cancer.webp",
     playStore:
       "https://play.google.com/store/apps/details?id=com.screwcancer.app&hl=en_IN&gl=US",
     appStore: "https://apps.apple.com/in/app/the-cancer-app/id1450257601",
@@ -55,8 +157,7 @@ export default [
     domains: ["Food & Beverage", "Maps & Navigation"],
     country: "Kenya",
     year: 2023,
-    image:
-      "https://play-lh.googleusercontent.com/-5ohCYrPz2zQR0kZZEP4cRxFH8HL7mjY1zwQqWhi7kn20kShomrLfxjQrDTI2ik6-XE=w1052-h592-rw",
+    image: "/images/projects/ando-foods.png",
     playStore:
       "https://play.google.com/store/apps/details?id=com.andofoods.rider",
   },
@@ -77,9 +178,8 @@ export default [
     desc: "Professional beauty salon appointment booking and scheduler app",
     domains: ["Food & Beverage"],
     country: "UAE",
-    year: 2023,
-    image:
-      "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/7b/d1/e5/7bd1e5b7-1a8d-9439-f53f-e3745b4fa598/af2a0eb3-a5e7-4599-8c0c-9dbbf144118a_01.png/460x0w.webp",
+    year: 2020,
+    image: "/images/projects/salonista.webp",
     playStore:
       "https://play.google.com/store/apps/details?id=com.salonista.android",
     appStore:
@@ -90,9 +190,8 @@ export default [
     domains: ["Food & Beverage"],
     country: "Worldwide",
     desc: "Find the ideal meeting point for you and your friends!",
-    year: 2023,
-    image:
-      "https://play-lh.googleusercontent.com/wxNJ8yp7S7MaHdeEeX4PpIPcvtwnoxSHLJsD7UWDvHTRa_UPdh3S_4-FP2n7hQ-egvZ9=w1052-h592-rw",
+    year: 2020,
+    image: "/images/projects/eqwe.webp",
     playStore:
       "https://play.google.com/store/apps/details?id=com.perfectlocation.eqwe",
     appStore: "https://apps.apple.com/in/app/eqwe/id1527450909",

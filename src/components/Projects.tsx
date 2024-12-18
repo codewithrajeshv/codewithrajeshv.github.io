@@ -20,12 +20,12 @@ const Projects = () => {
 
   return (
     <section className="py-8 sm:py-16 px-3 sm:px-4 bg-gray-900">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12 text-gray-100"
+          className="text-2xl sm:text-3xl font-bold text-left mb-8 sm:mb-12 text-gray-100"
         >
           Project Timeline
         </motion.h2>

@@ -2,15 +2,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
-    <motion.footer
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
-      className="w-full bg-gray-800 py-8 px-4"
-    >
-      <div className="max-w-3xl mx-auto">
+    <footer className="w-full bg-gray-800 py-8 px-4">
+      <div className="max-w-4xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Left side */}
           <motion.div
@@ -35,15 +30,15 @@ const Footer = () => {
           >
             <motion.a
               whileHover={{ scale: 1.05 }}
-              href="mailto:your.email@example.com"
-              className="text-blue-400 hover:text-blue-300 mb-2"
+              href="mailto:i.rajeshv11@gmail.com"
+              className="text-blue-400 hover:text-blue-300"
             >
-              your.email@example.com
+              i.rajeshv11@gmail.com
             </motion.a>
           </motion.div>
         </div>
       </div>
-    </motion.footer>
+    </footer>
   );
 };
 

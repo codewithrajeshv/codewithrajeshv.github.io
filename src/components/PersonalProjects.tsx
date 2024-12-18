@@ -13,14 +13,14 @@ const PersonalProjects: React.FC = () => {
 
   return (
     <section className="w-full bg-gray-800/50 py-8 sm:py-12 px-4">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="mb-8"
+          className="mb-6"
         >
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-100 mb-3">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-100 mb-0.5">
             Personal Projects
           </h2>
           <p className="text-gray-400">Actively working to improve them.</p>

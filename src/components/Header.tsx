@@ -81,7 +81,9 @@ const Header = () => {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="text-gray-300 mb-6 max-w-xl"
           >
-            A React Native engineer with 6+ years of rich experience in web and hybrid app development, eager to make meaningful contributions in the tech space.
+            A React Native engineer with 6+ years of rich experience in web and
+            hybrid app development, eager to make meaningful contributions in
+            the tech space.
           </motion.p>
 
           {/* Social Links */}
@@ -91,7 +93,7 @@ const Header = () => {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="flex gap-4 justify-center sm:justify-start"
           >
-            {socialLinks.map((link, index) => (
+            {socialLinks.map((link) => (
               <motion.a
                 key={link.name}
                 href={link.url}
